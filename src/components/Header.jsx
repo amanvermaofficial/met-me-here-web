@@ -1,0 +1,64 @@
+import React from "react";
+import { useNavigate } from "react-router";
+import logo from  '../assets/logo.webp'
+const Header = () => {
+
+    const navigate = useNavigate();
+
+    const NavbarMenu = [
+        { name: "Home", slug: "/", active: true },
+        { name: "Features", slug: "/features", active: true },
+        { name: "About", slug: "/about", active: true },
+        { name: "Contact", slug: "/courses", active: true },
+    ];
+
+    return (
+        <header className="w-full bg-white shadow-sm">
+            <div className="max-w-8xl mx-auto px-6 py-4 flex items-center justify-between">
+
+                {/* Logo + Brand */}
+                <div className="flex items-center space-x-3">
+                    <img
+                        src={logo}
+                        alt="Met Me Here"
+                        className="w-14 h-14 object-contain"
+                    />
+                    <div>
+                        <h1 className="text-lg text-gray-800">
+                            MET ME HERE
+                        </h1>
+                        <p className="text-xs text-gray-500">
+                            Connect. Contact. Convenience
+                        </p>
+                    </div>
+                </div>
+
+
+                <div className="flex gap-7">
+                {/* Navigation */}
+                <nav className="hidden md:flex items-center space-x-8">
+                    {NavbarMenu.map((item, index) => (
+                        <button
+                            key={index}
+                            onClick={() => navigate(item.slug)}
+                            className="transition  text-gray-600 hover:text-blue-600 cursor-pointer"
+                        >
+                            {item.name}
+                        </button>
+                    ))}
+                </nav>
+
+                {/* CTA Button */}
+                <div>
+                    <button className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-lg font-medium transition">
+                        Download App
+                    </button>
+                </div>
+
+                </div>
+            </div>
+        </header>
+    );
+};
+
+export default Header;
