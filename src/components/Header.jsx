@@ -13,7 +13,7 @@ const Header = () => {
     ];
 
     return (
-        <header className="w-full bg-white shadow-sm">
+       <header className="w-full bg-white shadow-[0_4px_20px_rgba(0,0,0,0.1)] sticky top-0 z-50">
             <div className="max-w-8xl mx-auto px-6 py-4 flex items-center justify-between">
 
                 {/* Logo + Brand */}
