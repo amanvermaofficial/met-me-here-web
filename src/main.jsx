@@ -5,6 +5,7 @@ import App from './App.jsx'
 import { createBrowserRouter,RouterProvider,Route, } from 'react-router'
 import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
+import Contact from './pages/Contact.jsx'
 
 const router = createBrowserRouter([
   {
@@ -25,7 +26,7 @@ const router = createBrowserRouter([
       },
       {
         path:'/contact',
-        element:<h1>Contact</h1>
+        element:<Contact />
       }
     ]
   }
