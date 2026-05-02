@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router";
-import logo from  '../assets/logo.webp'
+import logo from '../assets/logo.webp'
+import Button from "./common/Button";
 const Header = () => {
 
     const navigate = useNavigate();
@@ -9,11 +10,11 @@ const Header = () => {
         { name: "Home", slug: "/", active: true },
         { name: "Features", slug: "/features", active: true },
         { name: "About", slug: "/about", active: true },
-        { name: "Contact", slug: "/courses", active: true },
+        { name: "Contact", slug: "/contact", active: true },
     ];
 
     return (
-       <header className="w-full bg-white shadow-[0_4px_20px_rgba(0,0,0,0.1)] sticky top-0 z-50">
+        <header className="w-full bg-white shadow-[0_4px_20px_rgba(0,0,0,0.1)] sticky top-0 z-50">
             <div className="max-w-8xl mx-auto px-6 py-4 flex items-center justify-between">
 
                 {/* Logo + Brand */}
@@ -35,26 +36,25 @@ const Header = () => {
 
 
                 <div className="flex gap-7">
-                {/* Navigation */}
-                <nav className="hidden md:flex items-center space-x-8">
-                    {NavbarMenu.map((item, index) => (
-                        <button
-                            key={index}
-                            onClick={() => navigate(item.slug)}
-                            className="transition  text-gray-600 hover:text-blue-600 cursor-pointer"
-                        >
-                            {item.name}
-                        </button>
-                    ))}
-                </nav>
+                    {/* Navigation */}
+                    <nav className="hidden md:flex items-center space-x-8">
+                        {NavbarMenu.map((item, index) => (
+                            <button
+                                key={index}
+                                onClick={() => navigate(item.slug)}
+                                className="transition  text-gray-600 hover:text-blue-600 cursor-pointer"
+                            >
+                                {item.name}
+                            </button>
+                        ))}
+                    </nav>
 
-                {/* CTA Button */}
-                <div>
-                    <button className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-lg font-medium transition">
-                        Download App
-                    </button>
-                </div>
-
+                    {/* CTA Button */}
+                    <div>
+                        <Button variant="primary" size="md">
+                            Download App
+                        </Button>
+                    </div>
                 </div>
             </div>
         </header>
