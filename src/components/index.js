@@ -11,6 +11,13 @@ import Button from "./common/Button";
 import ContactOptions from "./Contact/ContactOptions";
 import ContactSection from "./Contact/ContactSection";
 import FAQ from "./Contact/FAQ";
+import FeatureHero from "./Features/FeatureHero";
+import FeatureSection from "./Features/FeatureSection";
+import ReasonsToLoveUs from "./Features/ReasonsToLoveUs";
+import DemoVideoSection from "./Features/DemoVideoSection";
+import StepsSection from "./Features/StepsSection";
+import WhyFuture from "./Features/WhyFuture";
+import GetStarted from "./Features/GetStarted";
 
 export {
     Header,
@@ -25,5 +32,12 @@ export {
     Button,
     ContactOptions,
     ContactSection,
-    FAQ
+    FAQ,
+    FeatureHero,
+    FeatureSection,
+    ReasonsToLoveUs,
+    DemoVideoSection,
+    StepsSection,
+    WhyFuture,
+    GetStarted
 };
