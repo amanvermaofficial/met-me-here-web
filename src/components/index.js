@@ -18,6 +18,8 @@ import DemoVideoSection from "./Features/DemoVideoSection";
 import StepsSection from "./Features/StepsSection";
 import WhyFuture from "./Features/WhyFuture";
 import GetStarted from "./Features/GetStarted";
+import HomeStepsSection from "./HomeStepsSection";
+import ParkingSection from "./ParkingSection";
 
 export {
     Header,
@@ -39,5 +41,7 @@ export {
     DemoVideoSection,
     StepsSection,
     WhyFuture,
-    GetStarted
+    GetStarted,
+    HomeStepsSection,
+    ParkingSection
 };
