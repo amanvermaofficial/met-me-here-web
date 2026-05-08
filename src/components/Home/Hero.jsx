@@ -1,9 +1,9 @@
 import React from "react";
 import { HiOutlineShieldCheck, HiOutlineChartBar } from "react-icons/hi2";
 import { TbTrendingUp } from "react-icons/tb";
-import logo from '../assets/logo.webp';
+import logo from '../../assets/logo.webp';
 import SeeItInAction from "./SeeItInAction";
-import Button from "./common/Button";
+import Button from "../common/Button";
 
 const Hero = () => {
     return (

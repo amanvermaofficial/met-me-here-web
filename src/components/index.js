@@ -1,7 +1,7 @@
 import Header from "./Header";
 import Footer from "./Footer";
-import Hero from "./Hero";
-import SeeItInAction from "./SeeItInAction";
+import Hero from "./Home/Hero";
+import SeeItInAction from "./Home/SeeItInAction";
 import AboutHero from "./About/AboutHero";
 import AboutValues from "./About/AboutValues";
 import AboutTeam from "./About/AboutTeam";
@@ -18,9 +18,12 @@ import DemoVideoSection from "./Features/DemoVideoSection";
 import StepsSection from "./Features/StepsSection";
 import WhyFuture from "./Features/WhyFuture";
 import GetStarted from "./Features/GetStarted";
-import HomeStepsSection from "./HomeStepsSection";
-import ParkingSection from "./ParkingSection";
-
+import HomeStepsSection from "./Home/HomeStepsSection";
+import ParkingSection from "./Home/ParkingSection";
+import PricingSection from "./Home/PricingSection";
+import MobileAppSection from "./Home/MobileAppSection";
+import ReadySection from "./Home/ReadySection";
+import HowItWorks from "./Home/HowItWorks";
 export {
     Header,
     Footer,
@@ -43,5 +46,9 @@ export {
     WhyFuture,
     GetStarted,
     HomeStepsSection,
-    ParkingSection
+    ParkingSection,
+    PricingSection,
+    MobileAppSection,
+    ReadySection,
+    HowItWorks
 };

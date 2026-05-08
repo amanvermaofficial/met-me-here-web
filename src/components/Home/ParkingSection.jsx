@@ -1,5 +1,5 @@
 import { MapPin, Clock, DollarSign } from "lucide-react";
-import Button from "./common/Button";
+import Button from "../common/Button";
 
 const stats = [
     { value: "1000+", label: "Listed Spaces", gradient: "from-blue-100 to-white", color: 'text-blue-500' },

@@ -1,6 +1,5 @@
 import React from 'react'
-import { Hero, SeeItInAction, HomeStepsSection, ParkingSection } from '../components'
-import { ParkingCircle } from 'lucide-react'
+import { Hero, SeeItInAction, HomeStepsSection, ParkingSection, PricingSection, MobileAppSection, ReadySection, HowItWorks } from '../components'
 
 
 function Home() {
@@ -9,7 +8,11 @@ function Home() {
       <Hero />
       <SeeItInAction />
       <HomeStepsSection />
+      <HowItWorks />
       <ParkingSection />
+      <PricingSection />
+      <MobileAppSection />
+      <ReadySection />
     </div>
   )
 }

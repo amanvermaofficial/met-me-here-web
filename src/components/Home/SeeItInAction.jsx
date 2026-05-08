@@ -1,5 +1,5 @@
 import React from "react";
-import SeeItInActionImage from "../assets/SeeItInAction.webp";
+import SeeItInActionImage from "../../assets/SeeItInAction.webp";
 import ZoomCard from "./ZoomCard";
 
 const SeeItInAction = () => {
