@@ -32,19 +32,19 @@ const ContactSection = () => {
                     <InfoCard
                         icon={Phone}
                         title="Phone"
-                        value="+91 98765 43210"
+                        value="+91 7626993537"
                     />
 
                     <InfoCard
                         icon={MapPin}
                         title="Office"
-                        value="Bangalore, Karnataka, India"
+                        value="3337 1st floor Sector 66B IT city Mohali Punjab india (140308)"
                     />
 
                     <InfoCard
                         icon={Clock}
                         title="Business Hours"
-                        value="Mon–Sat, 9 AM – 6 PM IST"
+                        value="Mon–Sat, 24 Hours"
                     />
 
                 </div>

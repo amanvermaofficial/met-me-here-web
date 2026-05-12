@@ -24,6 +24,7 @@ import PricingSection from "./Home/PricingSection";
 import MobileAppSection from "./Home/MobileAppSection";
 import ReadySection from "./Home/ReadySection";
 import HowItWorks from "./Home/HowItWorks";
+import HomeFeatureSection from "./Home/HomeFeatureSection";
 export {
     Header,
     Footer,
@@ -50,5 +51,6 @@ export {
     PricingSection,
     MobileAppSection,
     ReadySection,
-    HowItWorks
+    HowItWorks,
+    HomeFeatureSection
 };

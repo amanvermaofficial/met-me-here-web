@@ -1,5 +1,5 @@
 import React from 'react'
-import { Hero, SeeItInAction, HomeStepsSection, ParkingSection, PricingSection, MobileAppSection, ReadySection, HowItWorks } from '../components'
+import { Hero, SeeItInAction, HomeStepsSection, ParkingSection, PricingSection, MobileAppSection, ReadySection, HowItWorks, HomeFeatureSection } from '../components'
 
 
 function Home() {
@@ -7,12 +7,13 @@ function Home() {
     <div>
       <Hero />
       <SeeItInAction />
+      <HomeFeatureSection />
       <HomeStepsSection />
       <HowItWorks />
-      <ParkingSection />
+      {/* <ParkingSection /> */}
       <PricingSection />
       <MobileAppSection />
-      <ReadySection />
+      {/* <ReadySection /> */}
     </div>
   )
 }

@@ -23,7 +23,7 @@ export default function PricingSection() {
                     <h3 className="text-xl font-medium text-center">6 Months Plan</h3>
 
                     <p className="text-blue-600 text-4xl font-semibold text-center mt-3">
-                        ₹299 <span className="text-sm text-gray-500 font-medium">/ 6 months</span>
+                        ₹299 <span className="text-sm text-gray-500 font-medium">/ Year</span>
                     </p>
 
                     <ul className="mt-6 space-y-3 text-gray-700 font-medium">
@@ -64,7 +64,7 @@ export default function PricingSection() {
                     <h3 className="text-xl font-medium text-center">Yearly Plan</h3>
 
                     <p className="text-blue-600 text-4xl font-semibold text-center mt-3">
-                        ₹499 <span className="text-sm text-gray-500 font-medium">/ 12 months</span>
+                        ₹499 <span className="text-sm text-gray-500 font-medium">/ 24 months</span>
                     </p>
 
                     {/* SAVE BADGE */}
